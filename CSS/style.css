@@ -8,13 +8,6 @@ html, body {
     height: 100%;
 } 
 
- article {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
-}
-
 hr{
     margin: 10px 0px 10px 0px;
     height: 10px;
@@ -248,3 +241,40 @@ h3{
 .servicios1_img:hover, .servicios2_img:hover, .servicios3_img:hover {
     filter:opacity(70%);
 }
+
+/* ------------ CONTACTO ------------ */
+textarea{
+   /*  background-color: blue; */
+    transition: all 2s;
+ }
+textarea:focus{
+    background-color: white;
+    height: 100px;
+    width: 400px;
+ }
+
+ .as:focus{
+    animation-name: mi-animacion;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+ }
+ @keyframes mi-animacion {
+    0%{
+        background-color: red;
+        height: 50px;
+    }
+    25%{
+        background-color: rgb(25, 0, 255);
+        height: 10px;
+    }
+    50%{
+        background-color: rgb(25, 0, 255);
+        height: 5px;
+    }
+    100%{
+        background-color: rgb(39, 196, 39);
+        height: 0px;
+    }
+ }
