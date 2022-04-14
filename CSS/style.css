@@ -8,7 +8,7 @@ html, body {
     height: 100%;
 } 
 
-hr{
+.linea{
     margin: 10px 0px 10px 0px;
     height: 10px;
     background-color: rgb(76, 144, 205);
@@ -16,20 +16,9 @@ hr{
 
  /*  --------------- HEADER --------------- */
 
-a{
+/* a{
     text-decoration: none;
     color: white;
-}
-
-#header{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    align-items: center;
-    padding: 20px;
-    background-color:rgb(0, 48, 75);
-    position: sticky;
-    top: 0px;
 }
 
 #header .header_logo img{
@@ -46,7 +35,36 @@ a{
     margin: 0 15px;
     font-weight: 700;
     text-transform: uppercase;
+} */
+header{
+    background-color:rgb(0, 48, 75);
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+ .navbar-nav .nav-link{
+    color:white;
+    font-size: 1.4rem;
+    margin: 0px 10px;
+}
+.navbar-nav .nav-link .active{
+    color:red;
+}
+.navbar-toggler-icon {
+color: white;
+}
+.navbar-toggler-icon {
+    font-size: 3rem;
+    line-height: 1;
+    border: 3px solid transparent;
+    /* border: 3px solid white; */
+    border-radius: 1.25rem;
+}
+
 
 /* ------------------ FOOTER ----------------- */
  #foot{
@@ -253,3 +271,14 @@ textarea:focus{
     width: 400px;
  }
 
+ .btn-reset{
+     background-color: rgb(184, 196, 196);
+ }
+
+ form.row.g-3{
+    padding: 15px;
+ }
+
+ .col-12{
+     font-size: 16px;
+ }
