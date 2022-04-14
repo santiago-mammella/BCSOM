@@ -65,10 +65,6 @@ color: white;
     border-radius: 1.25rem;
 }
 
-/* .navbar-brand{
-    height: 100%;
-} */
-
 /* ------------------ FOOTER ----------------- */
  #foot{
     background-color: rgb(0, 48, 75);
@@ -267,21 +263,21 @@ h3{
 textarea{
    /*  background-color: blue; */
     transition: all 2s;
- }
+}
 textarea:focus{
     background-color: white;
     height: 100px;
     width: 400px;
- }
+}
 
- .btn-reset{
-     background-color: rgb(184, 196, 196);
- }
+.btn-reset{
+    background-color: rgb(184, 196, 196);
+}
 
- form.row.g-3{
+form.row.g-3{
     padding: 15px;
- }
+}
 
- .col-12{
-     font-size: 16px;
- }
+.col-12{
+    font-size: 16px;
+}
