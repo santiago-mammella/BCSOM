@@ -1,0 +1,25 @@
+@import 'color';
+
+.descripcion {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    & &_img {
+        padding: 20px;
+        text-align: center;
+    }
+    & &_txt{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: $colorPrincipal;
+        & h3{
+            color: $colorTitulos;
+        }
+        }
+
+    }      
+    
