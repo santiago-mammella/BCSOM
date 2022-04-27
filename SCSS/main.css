@@ -35,3 +35,21 @@
 .descripcion .descripcion_txt h3 {
   color: red;
 }
+
+/* ------------------ TURNOS --------------- */
+.dia-ab {
+  color: green;
+}
+
+.dia-cr {
+  color: brown;
+}
+
+.titulo, .titulo-dark {
+  color: red;
+}
+
+.titulo-dark {
+  font-size: 1rem;
+  background-color: burlywood;
+}

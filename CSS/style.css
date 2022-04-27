@@ -26,7 +26,6 @@ header{
 .navbar-collapse{
     justify-content: flex-end;
 }
-
 .navbar-nav .nav-link{
     color:white;
     font-size: 1.4rem;
@@ -119,31 +118,6 @@ h2{
     text-align: center;
 }
 
-/* ---------- INDEX -------------- */
-#descripcion{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-
-}
-#descripcion .descripcion_img{
-    padding: 20px;
-    text-align: center;
-}
-#descripcion .descripcion_txt{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* color: rgb(0, 48, 75); */
-    color: black;
-}
-#descripcion .descripcion_txt h3{
-    color: red;
-}
-
  /* ------------ MOBILE ------------ */
 @media screen and (max-width: 780px){
     
@@ -215,9 +189,9 @@ h2{
     border-radius: 0 5px 5px 0;
     color: rgb(0, 48, 75);
 }
-h3{
+/* h3{
     color: red;
-}
+} */
 .servicios2_txt{
     margin: 0 0 0 5px;
 }
@@ -297,7 +271,8 @@ form.row.g-3{
 .boton{
     min-width: 130px;
     height: 40px;
-    color: #fff;
+    /* color: #fff; */
+    color: transparent;
     padding: 5px 10px;
     font-weight: bold;
     cursor: pointer;
@@ -307,7 +282,8 @@ form.row.g-3{
     outline: none;
     border-radius: 5px;
     z-index: 0;
-    background: #fff;
+    /* background: #fff; */
+    background: transparent;
     overflow: hidden;
     border: 2px solid rgb(0, 48, 75);
     color: rgb(0, 48, 75);
