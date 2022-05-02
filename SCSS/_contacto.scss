@@ -1,0 +1,9 @@
+.row.g-3 {
+    padding: 15px;
+    & .col-12 {
+        font-size: 16px;
+    }
+    & .btn-reset {
+        background-color: rgb(184, 196, 196);
+    }
+}

@@ -1,0 +1,61 @@
+/* ---------------------TIENDA---------------------- */
+#flex-catalogo1 {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    gap: 50px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    & .flex-liqui{
+        background-color:$colorPrincipal;
+        border: 5px solid $colorPrincipal;
+        color: white;
+        width: 200px;
+        border-radius: 5px;
+        background: $colorPrincipal;
+        box-shadow:  -5px 5px 20px #5a5a5a,
+        5px -5px 20px #ffffff;
+        & img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        & img:hover {
+            filter: opacity(30%);
+        }
+        & .precio {
+            padding: 3px;
+            text-align:end;
+        }
+    }
+}
+#flex-catalogo2 {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    gap: 50px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    & .flex-acc{
+        background-color: $colorPrincipal;
+        border: 5px solid $colorPrincipal;
+        color: white;
+        width: 200px;
+        border-radius: 5px;
+        background: $colorPrincipal;
+        box-shadow:  -5px 5px 20px #5a5a5a,
+        5px -5px 20px #ffffff;
+        & img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        & img:hover {
+            filter: opacity(30%);
+        }
+        & .precio {
+            padding: 3px;
+            text-align:end;
+        }
+    }
+}

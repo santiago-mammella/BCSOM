@@ -1,49 +1,10 @@
 @import 'color';
+@import 'tienda';
+@import 'servicios';
+@import 'contacto';
+@import 'nosotros';
+@import 'index';
+@import 'style';
 
-.descripcion {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    & &_img {
-        padding: 20px;
-        text-align: center;
-    }
-    & &_txt{
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        color: $colorPrincipal;
-        & h3{
-            color: $colorTitulos;
-        }
-        }
-    }  
-    
-/* ------------------ TURNOS --------------- */
-$dia-hora: (
-    ab: green,
-    cr: brown
-);
-@each $nombre, $valor in $dia-hora {
-    .dia-#{$nombre} {
-        color: $valor;
-    }   
-}
-
-@mixin color-fondo {
-    background-color: burlywood;
-}
-.titulo {
-    color: $colorTitulos;
-}
-
-.titulo-dark {
-    @extend .titulo;
-    font-size: 1rem;
-    @include color-fondo;
-}
 
 
