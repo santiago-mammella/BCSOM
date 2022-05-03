@@ -1,0 +1,55 @@
+/* ------------ MOBILE ------------ */
+@media screen and (max-width: 780px){
+    
+    /* --- INDEX --- */
+    #descripcion{
+        flex-direction: column;
+        display: flex;
+        & .descripcion_txt {
+            width: 100%;
+            & p{
+                width: 70%;
+                text-align: left;
+                margin: 0 0 0 2px;
+            }
+        }
+        & .descripcion_img{
+            width: 70%;
+            padding: 0;
+            & img{
+                width: 100%;
+            }
+        }
+    }
+
+    /* --- HEADER --- */
+    #header{
+        justify-content: space-evenly;
+        & .header_menu {
+            & ul {
+                flex-direction: column;
+                & li {
+                    font-weight: 500;
+                    padding: 2px;
+                }
+            }
+        }
+    }
+    
+    /* --- FOOTER --- */
+    .logo img{
+        width: 100%;
+    }
+
+    /* --- SERVICIOS --- */
+    .servicios1_img, .servicios2_img, .servicios3_img{
+        display: flex;
+        align-items: center;
+    }
+
+    /* --- NOSOTROS --- */
+    .mapa{
+        height: 40%;
+        width: 40%; 
+    }   
+}

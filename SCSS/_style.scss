@@ -50,11 +50,8 @@ header {
     display: grid;
     gap: 5px;
     margin: 0px;
-    grid-template-areas: 
-    "marca social";
-    grid-template-rows: 50px;
+    grid-template-columns: 1fr 1fr; 
     & .redes{
-        grid-area: social;
         justify-content: flex-end;
         align-items: stretch;
         display: flex;
@@ -65,9 +62,12 @@ header {
         }
     }
     & .logo{
-        grid-area: marca;
         justify-content: flex-start;
         align-items: stretch;
         display: flex;
     }
+}
+h1 {
+    text-align: center;
+    color: $ColorTitulos;
 }
