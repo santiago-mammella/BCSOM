@@ -243,6 +243,10 @@
           justify-content: center;
 }
 
+.nos .titulo {
+  color: red;
+}
+
 .boton {
   min-width: 130px;
   height: 40px;
@@ -416,6 +420,11 @@ header .navbar-toggler-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+h1 {
+  text-align: center;
+  color: red;
 }
 
 /* ------------ MOBILE ------------ */
