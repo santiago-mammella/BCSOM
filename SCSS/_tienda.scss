@@ -27,11 +27,14 @@
             padding: 3px;
             text-align:end;
         }
+        & .articulo {
+            text-align: center;
+        }
     }
 }
 #flex-catalogo2 {
     display: flex;
-    padding: 10px;
+    padding: 0px;
     height: auto;
     gap: 50px;
     flex-flow: row wrap;
@@ -54,8 +57,10 @@
             filter: opacity(30%);
         }
         & .precio {
-            padding: 3px;
             text-align:end;
+        }
+        & .articulo {
+            text-align: center;
         }
     }
 }
