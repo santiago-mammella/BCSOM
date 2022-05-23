@@ -400,6 +400,20 @@ h2 {
   text-align: center;
 }
 
+.conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteiner main {
+  width: 80%;
+}
+
 /* ------------ MOBILE ------------ */
 @media screen and (max-width: 780px) {
   /* --- INDEX --- */
